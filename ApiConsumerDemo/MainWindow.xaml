@@ -19,6 +19,7 @@
             <Button x:Name="nextImageButton" Padding="15" Margin="15" Click="nextImageButton_Click">Suivant</Button>
         </StackPanel>
 
+        
         <Image Grid.Row="1" Name="comicImage" Margin="20"/>
     </Grid>
 </Window>
