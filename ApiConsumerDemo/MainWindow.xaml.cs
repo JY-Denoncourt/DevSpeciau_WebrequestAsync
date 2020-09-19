@@ -62,12 +62,6 @@ namespace ApiConsumerDemo
             }
         }
 
-        private void sunInformationButton_Click(object sender, RoutedEventArgs e)
-        {
-            SunInfo sunInfo = new SunInfo();
-            sunInfo.Show();
-        }
-
         private async void nextImageButton_Click(object sender, RoutedEventArgs e)
         {
             if (currentNumber < maxNumber)
@@ -82,5 +76,20 @@ namespace ApiConsumerDemo
                 }
             }
         }
+
+
+
+        private void sunInformationButton_Click(object sender, RoutedEventArgs e)
+        {
+            SunInfo sunInfo = new SunInfo();
+            sunInfo.Show();
+        }
+
+        private void dogInformationButton_Click(object sender, RoutedEventArgs e)
+        {
+            DogInfo dogInfo = new DogInfo();
+            dogInfo.Show();
+        }
+
     }
 }
